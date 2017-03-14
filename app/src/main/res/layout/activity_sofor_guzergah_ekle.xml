@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforGuzergahEkle"
+    android:background="@drawable/arkaplanblue">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/tableLayout2"
+        android:background="#0288D1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Okul :"
+                android:id="@+id/textView60"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_alignStart="@+id/textView53" />
+
+            <Spinner
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerOkul" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="120dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Güzergah No:"
+                android:id="@+id/textView58"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_alignStart="@+id/textView53" />
+
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etGuzergahNo"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/inputbackgroud"
+                android:text="2"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="İl :"
+                android:id="@+id/textView59"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28" />
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etGuzergahIl"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/inputbackgroud"
+                android:text="Tekirdağ"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="İlçe :"
+                android:id="@+id/textView55"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28" />
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etGuzergahIlce"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/inputbackgroud"
+                android:text="Çorlu"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mahalle :"
+                android:id="@+id/textView56"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28" />
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etGuzergahMah"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/inputbackgroud"
+                android:text="Nusratiye"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Şoförü:"
+                android:id="@+id/textView63"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28" />
+
+            <Spinner
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerServisSoforu" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Plakası:"
+                android:id="@+id/textView57"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28" />
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextServisSoforu"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/inputbackgroud"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="GÜZERGAH EKLE"
+        android:id="@+id/button73"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="KAYDET"
+        android:id="@+id/btnSoforGuzergahEkle"
+        android:background="@drawable/kaydetbutonu"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textColor="#fbdbad"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="430dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelOkul"
+        android:layout_below="@+id/tableLayout2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelServisSoforu"
+        android:layout_alignTop="@+id/labelOkul"
+        android:layout_toEndOf="@+id/labelOkul" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforOkulSecme"
+    android:background="@drawable/arkaplanblue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Servis yapacağınız okulu seçiniz."
+        android:id="@+id/textView71"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner17"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView71"
+        android:layout_alignStart="@+id/textView71" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:text="Servise Başla..."
+        android:id="@+id/btnSoforOkulSecme"
+        android:background="@drawable/kaydetbutonu"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/spinner17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="OKUL SEÇME"
+        android:id="@+id/button83"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforYeniKayit"
+    android:background="@drawable/arkaplanblue">
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="YENİ KAYIT OLUŞTUR"
+        android:id="@+id/button59"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="OKUL       EKLE"
+        android:id="@+id/btnSoforOkulEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/btnSoforHostesEkle"
+        android:layout_alignStart="@+id/btnSoforEkle" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="ÖĞRENCİ EKLE"
+        android:id="@+id/btnSoforOgrenciEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/button59"
+        android:layout_alignStart="@+id/button59"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="ŞOFÖR     EKLE"
+        android:id="@+id/btnSoforEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_above="@+id/btnSoforHostesEkle"
+        android:layout_alignEnd="@+id/button59" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="HOSTES  EKLE"
+        android:id="@+id/btnSoforHostesEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnSoforOgrenciEkle"
+        android:layout_alignStart="@+id/btnSoforOgrenciEkle"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="SERVİS    EKLE"
+        android:id="@+id/btnSoforServisEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/btnSoforGuzergahEkle"
+        android:layout_alignStart="@+id/btnSoforOkulEkle" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="GÜZERGAH EKLE"
+        android:id="@+id/btnSoforGuzergahEkle"
+        android:background="@drawable/anasayfaselector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnSoforHostesEkle"
+        android:layout_alignStart="@+id/btnSoforHostesEkle"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

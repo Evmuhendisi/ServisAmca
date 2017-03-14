@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SifreDegistir"
+    android:background="@drawable/arkaplanblue">
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="Adınızı Soyadınızı Giriniz"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:background="@drawable/inputbackgroud" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:hint="Eski ŞifreniziGiriniz"
+        android:textSize="25dp"
+        android:layout_below="@+id/editText12"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@drawable/inputbackgroud"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:hint="Yeni Şifrenizi Giriniz"
+        android:textSize="25dp"
+        android:layout_below="@+id/editText10"
+        android:layout_alignStart="@+id/editText10"
+        android:textAlignment="center"
+        android:background="@drawable/inputbackgroud"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:hint="Tekrar Giriniz"
+        android:textSize="25dp"
+        android:layout_below="@+id/editText13"
+        android:layout_alignStart="@+id/editText13"
+        android:textAlignment="center"
+        android:background="@drawable/inputbackgroud"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Şifreyi Değiştir"
+        android:id="@+id/button43"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/velianasayfabuton"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/editText15"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fbdbad" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="ŞİFRE DEĞİŞTİR"
+        android:id="@+id/button44"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

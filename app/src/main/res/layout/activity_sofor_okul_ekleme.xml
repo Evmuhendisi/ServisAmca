@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforOkulEkleme"
+    android:background="@drawable/arkaplanblue">
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="OKUL EKLE"
+        android:id="@+id/button79"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/tableLayout3"
+        android:background="#0288D1">
+
+        <TableRow
+            android:layout_width="25dp"
+            android:layout_height="120dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="İl :"
+                android:id="@+id/textView58"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_alignStart="@+id/textView53"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinneril" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="İlçe :"
+                android:id="@+id/textView59"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerilce" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mahalle :"
+                android:id="@+id/textView55"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnermahalle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Okul adı :"
+                android:id="@+id/textView56"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28" />
+
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etOkulAdi"
+                android:background="@drawable/inputbackgroud"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Namık kemal İlköğretim okulu" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Okul türü :"
+                android:id="@+id/textView57"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerOkulTuru" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="KAYDET"
+        android:id="@+id/btnSoforOkulEkle"
+        android:background="@drawable/kaydetbutonu"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textColor="#fbdbad"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelil"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelilce"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_toEndOf="@+id/labelil"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelmahalle"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_alignEnd="@+id/tableLayout3"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelokulturu"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_toEndOf="@+id/labelilce"
+        android:visibility="invisible" />
+</RelativeLayout>

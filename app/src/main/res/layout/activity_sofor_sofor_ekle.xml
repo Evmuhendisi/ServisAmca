@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforSoforEkle"
+    android:background="@drawable/arkaplanblue">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:id="@+id/scrollView3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginRight="4dp"
+        android:background="#0288D1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="T.C."
+                    android:id="@+id/textView31"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforTC"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="56890473465"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:numeric="integer"
+                    android:maxLength="11" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="İsim Soyisim:"
+                    android:id="@+id/textView32"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforisimSoyisim"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="Süleyman SÜRÜCÜ"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tel Numarası-1:"
+                    android:id="@+id/textView33"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforTelNo1"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="0531 877 98 55"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:phoneNumber="true" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tel Numarası-2:"
+                    android:id="@+id/textView34"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforTelNo2"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="56890473465"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:phoneNumber="true" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Adres:"
+                    android:id="@+id/textView35"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforAdres"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="Nusratiye Mah. Alipşa cad. Lojman Sok. No: 7"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Gör. Old. Servis:"
+                    android:id="@+id/textView36"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinnerSoforServis" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="E-Mail:"
+                    android:id="@+id/textView38"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#fbdbad"
+                    android:layout_marginLeft="1dp" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etSoforEmail"
+                    android:padding="10dp"
+                    android:background="@drawable/inputbackgroud"
+                    android:text="slymnsr@gmail.com"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:text="ŞOFÖR EKLE"
+        android:id="@+id/button46"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:id="@+id/imageView19"
+        android:background="@drawable/personel"
+        android:layout_below="@+id/button46"
+        android:layout_alignStart="@+id/button46"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf çek"
+        android:id="@+id/button68"
+        android:background="@drawable/topbutonv2"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#fbdbad"
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_alignEnd="@+id/button46"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/imageView19"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:id="@+id/btnSoforEkle"
+        android:background="@drawable/kaydetbutonu"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="435dp"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelSoforServis"
+        android:layout_below="@+id/button68"
+        android:layout_toEndOf="@+id/imageView19"
+        android:visibility="invisible" />
+
+</RelativeLayout>

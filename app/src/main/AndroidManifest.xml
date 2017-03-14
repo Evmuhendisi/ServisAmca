@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suleymansrc.servisamca">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loginicon"
+        android:label="Servis Amca"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VeliLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ServisOturmaPlani" />
+        <activity android:name=".SifremiUnuttum" />
+        <activity android:name=".VeliAidat" />
+        <activity android:name=".VeliOgrenciDurumu" />
+        <activity android:name=".ServisBilgisi" />
+        <activity android:name=".VeliBilgileriGuncelleme" />
+        <activity android:name=".VeliSmsGonder" />
+        <activity android:name=".VeliAidatListesi" />
+        <activity android:name=".HostesAnasayfa" />
+        <activity android:name=".HostesYoklama" />
+        <activity android:name=".HostesOturmaSekli" />
+        <activity android:name=".HostesSms" />
+        <activity android:name=".SifreDegistir" />
+        <activity android:name=".HostesBilgileriGuncelleme" />
+        <activity android:name=".VeliOgrencimGelmeyecek" />
+        <activity android:name=".VeliSoforHostesBilgi" />
+        <activity android:name=".SoforAnasayfa" />
+        <activity android:name=".SoforYeniKayit" />
+        <activity android:name=".SoforServisBilgileri" />
+        <activity android:name=".SoforBilgilerim" />
+        <activity android:name=".SoforHarita" />
+        <activity android:name=".SoforOgrenciEkle" />
+        <activity android:name=".SoforSoforEkle" />
+        <activity android:name=".SoforAidatBilgileri" />
+        <activity android:name=".SoforAidatDetay" />
+        <activity android:name=".SoforAidatPlani" />
+        <activity android:name=".SoforGuzergahEkle" />
+        <activity android:name=".SoforServisEkle" />
+        <activity android:name=".SoforMesajGonder" />
+        <activity android:name=".SoforHostesEkle" />
+        <activity android:name=".SoforOkulEkleme" />
+        <activity android:name=".SoforOgrenciEkle2" />
+        <activity android:name=".SoforOkulSecme" />
+        <activity android:name=".Hakkimizda"></activity>
+    </application>
+
+</manifest>

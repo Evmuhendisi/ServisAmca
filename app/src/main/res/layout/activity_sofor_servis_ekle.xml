@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.SoforServisEkle"
+    android:background="@drawable/arkaplanblue">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tableLayout3"
+        android:background="#0288D1">
+
+        <TableRow
+            android:layout_width="25dp"
+            android:layout_height="120dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Tipi :"
+                android:id="@+id/textView58"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_alignStart="@+id/textView53"
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerServisTipi" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Markası:"
+                android:id="@+id/textView59"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerServisMarkasi" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Modeli:"
+                android:id="@+id/textView55"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerServisModeli" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Servis Plakası:"
+                android:id="@+id/textView56"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fbdbad"
+                android:layout_below="@+id/editText28"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etServisPlakasi"
+                android:layout_column="1"
+                android:background="@drawable/inputbackgroud"
+                android:padding="10dp"
+                android:text="59 TJK 78"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="SERVİS EKLE"
+        android:id="@+id/button75"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="KAYDET"
+        android:id="@+id/btnSoforServisEkle"
+        android:background="@drawable/kaydetbutonu"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textColor="#fbdbad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelservistipi"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lanbelservismarkasi"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_toEndOf="@+id/labelservistipi"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/labelservismodeli"
+        android:layout_alignTop="@+id/lanbelservismarkasi"
+        android:layout_toEndOf="@+id/lanbelservismarkasi"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.VeliSmsGonder"
+    android:background="@drawable/arkaplanblue">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:hint="Bilgilendirme Yapmak İstediğiniz Mesajı Giriniz."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/inputbackgroud"
+        android:padding="8dp"
+        android:layout_below="@+id/imageView22"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="62dp"
+        android:text="SMS GÖNDER"
+        android:id="@+id/btnSoforMesajGonder"
+        android:background="@drawable/loginbuton"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#fbdbad"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/editText11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="SERVİSİ ARA / MESAJ GÖNDER"
+        android:id="@+id/button40"
+        android:background="@drawable/topbuton"
+        android:textColor="#fbdbad"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hostes :"
+        android:id="@+id/textView64"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/button40"
+        android:layout_alignStart="@+id/button40"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esma Karaman"
+        android:id="@+id/textView65"
+        android:layout_alignTop="@+id/textView64"
+        android:layout_toEndOf="@+id/textView64"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefonu :"
+        android:id="@+id/textView66"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/textView64"
+        android:layout_alignStart="@+id/textView64"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0531 888 4578"
+        android:id="@+id/textView67"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textView65"
+        android:layout_toEndOf="@+id/textView66"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView21"
+        android:background="@android:drawable/stat_sys_phone_call"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/textView67"
+        android:layout_toEndOf="@+id/textView37" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:id="@+id/imageView22"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/imageView21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ara"
+        android:id="@+id/textView37"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/textView66"
+        android:layout_alignStart="@+id/textView65"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

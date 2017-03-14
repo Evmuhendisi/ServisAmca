@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suleymansrc.servisamca.VeliAidat"
+    android:background="@drawable/arkaplanblue">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:text="ELDEN VERDİM."
+        android:id="@+id/button9"
+        android:background="@drawable/velianasayfabuton"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/button48"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:text="HAVALE  / EFT İLE VERDİM."
+        android:id="@+id/button48"
+        android:background="@drawable/velianasayfabuton"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fbdbad"
+        android:layout_below="@+id/textView51"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:text="AİDAT ÖDEME BİLDİRME"
+        android:id="@+id/button70"
+        android:background="@drawable/topbuton"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#fbdbad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ödeme şeklini şeçiniz."
+        android:id="@+id/textView51"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fbdbad"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button70"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
